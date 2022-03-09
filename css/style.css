@@ -6,8 +6,8 @@ body {
 }
 h1 {
     text-align: center;
-    background-color: #092327;
-    color: white;
+    background-color: #8ecae6;
+    color: #ffb703;
     width: 400px;
     margin: 0 auto;
     border-radius: 5px;
@@ -18,7 +18,7 @@ h1 {
 .menu {
     list-style: none;
     padding: 0;
-    background-color: #092327;
+    background-color: #fb8500;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -37,7 +37,13 @@ h1 {
     background-color: #ef8354;
 }
 
-p {
-    text-align: center;
-    font-size: 20px;
+.description {
+    background-color: #219ebc;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.description span {
+    font-weight: bold;
 }

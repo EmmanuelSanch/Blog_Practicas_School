@@ -1,49 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e8e8e8;
-}
-h1 {
+.bar-nav {
     text-align: center;
-    background-color: #8ecae6;
-    color: #ffb703;
-    width: 400px;
-    margin: 0 auto;
-    border-radius: 5px;
-    font-size: 40px;
-    text-shadow: 2px 2px 2px black;
-    font-family: 'Inconsolata', monospace;
-}
-.menu {
-    list-style: none;
-    padding: 0;
-    background-color: #fb8500;
-    width: 90%;
-    max-width: 1000px;
+    border: 1px solid black;
+    padding: 15px;
+    width: max-content;
     margin: auto;
+    background-color: rgb(49, 181, 199);
 }
-.menu li a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-.menu li {
+.bar-nav li {
+    list-style-type: none;
     display: inline-block;
-    text-align: center;
 }
-.menu li:hover {
-    background-color: #ef8354;
+.bar-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    margin: 0px;
 }
-
-.description {
-    background-color: #219ebc;
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px;
+.bar-nav a:hover {
+    background-color: rgb(36, 129, 141);
+    color: white;
 }
-.description span {
+.bar-nav li.separacion::after {
+    content: " | ";
     font-weight: bold;
 }
